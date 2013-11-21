@@ -475,6 +475,55 @@ body {
 	background: #cfd5ed url('images/dbo-mobile2x.jpg') no-repeat 50% 0%;
 	background-size: 100%;
 }
+
+.bwu-info {
+width: 100%;
+text-align: center;
+font-size: 1.2em;
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bwu-select{
+
+	float: left;
+margin-bottom: 10px;
+margin-top: 5px;
+margin-left: 9%;
+width: 50%;
+}
+
+
+.bwu-select form select {
+
+	width:100%;
+}
+
+.bwu-nav{
+
+	width:100%;
+}
+
+.prev-arrow{
+
+	float:left;
+	margin-top: 10px;
+
+}
+
+.next-arrow{
+	float:right;
+	margin-top:10px;
+
+}
+
+
+
+
+
+
+
+
+
 }
 
 /* Smartphones (landscape) ----------- */
