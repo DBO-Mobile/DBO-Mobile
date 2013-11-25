@@ -1,0 +1,46 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles at the end of this file instead 
+of style.css so it is easier to update the theme. 
+Simply copy an existing style from style.css to this file, 
+and modify it to your liking.
+*/
+
+body {
+	background-attachment: fixed;
+	}
+	
+#header {
+	height: 30px;
+	}
+	
+#navigation {
+  background-image:url(/images/dbo-header_vanguard-report.jpg);
+  background-position:958px 0;
+  background-repeat:initial initial;
+  border-width:0;
+  box-shadow:none;
+  height:50px;
+  margin-top:0;
+  padding:80px 0 0 97px;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:50;
+}
+
+ul.nav li.current_page_item a, ul.nav li.current_page_parent a, ul.nav li.current-menu-ancestor a, ul.nav li.current-cat a, ul.nav li.current-menu-item a {
+	background: none;
+	}
+	
+#navigation ul.nav > li a:hover, #navigation ul.nav > li:hover, navigation ul.nav ul {
+    background: none;
+	}
+	
+#content {
+	margin-top: 30px;
+	}

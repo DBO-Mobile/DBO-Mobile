@@ -1,0 +1,148 @@
+/*
+Theme Name:     DBO Fan Fiction
+Theme URI:      http://destiny.bungie.org/fanfic
+Description:    Child theme for the WooThemes Canvas framework
+Template:       canvas
+Version:        1.0
+*/
+
+@import url("../canvas/style.css");
+
+body {
+	color: #fff;
+	font-family: "Calibri", sans-serif;
+	position: relative;
+	font-size: .9em;
+	margin: 0;
+	}
+	
+a {
+	text-decoration: none;
+	}
+	
+	a:link {
+		color: rgb(56,88,189);
+		} /* old: #031780 */
+		
+	a:visited {
+		color: rgb(145,102,11);
+		} /* old: #806203 */
+		
+	a:active, a:hover {
+		color:rgb(24,17,182);
+		text-decoration:underline;
+		} /* old: #020e4d */
+		
+#wrapper {
+	padding-bottom: 0;
+	}
+		
+#header {
+	padding-bottom: 20px;
+	}
+		
+h2, .post h1 {
+	text-transform: uppercase;
+	}
+
+#logo h1 a, #logo .site-title a {
+	display: none;
+	}
+	
+#navigation {
+	background: none;
+	border-width: 0;
+	box-shadow: none;
+	width: 570px;
+	min-width: 300px;
+	}
+	
+	ul.nav {
+		margin-right: 0;
+		}
+		
+	ul.nav li a {
+		padding: 0.5em 1em 0.5em 0.6em;
+		}
+	
+#navigation a, ul.nav li ul li a {
+	color: #fff;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	
+#navigation ul li:first-child, #navigation ul li:first-child a {
+	background: none;
+	}
+	
+#navigation ul.nav li:hover {
+	background: none;
+	text-decoration: underline;
+	}
+	
+ul.nav li.current_page_item a, ul.nav li.current_page_parent a, ul.nav li.current-menu-ancestor a, ul.nav li.current-cat a, ul.nav li.current-menu-item a {
+	background: none;
+	}
+	
+.current-menu-item, .current-page-item, .menu-item-home {
+	background: none;
+	}
+
+#content {
+	background: url('../dbofanfic/images/nbg.png');
+	padding: 15px;
+	}
+	
+.post {
+	margin: 0;
+	}
+	
+.post p.tags {
+	clear: none;
+	margin-bottom: 10px;
+	}
+	
+.post-entries {
+	margin-top: 10px;
+	}
+
+.post-footer-meta {
+	color:#999999;
+	font-family:Calibri, Candara, Segoe, Optima, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.5em;
+	float: right;
+	}
+	
+.post-hr img {
+	vertical-align: top;
+	}
+	
+#footer-widgets {
+	text-align: center;
+	margin: 0;
+	}
+	
+	#footer-widgets .block {
+		padding-top: 0;
+		}
+	
+	#footer-widgets .widget {
+		margin: 0;
+		}
+		
+	.searchform, #searchform {
+		background-color: #fff;
+		}
+		
+	.widget_woo_search {
+		padding-bottom: 10px;
+		}
+	
+#footer {
+	display: none;
+	}
