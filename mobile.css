@@ -516,13 +516,40 @@ width: 50%;
 
 }
 
+#Accwrapper{
+width: 100% !important;
+
+}
+
+.accordionButton{
+
+	width: 100% !important;
+float: none !important;
+padding: 0 !important;
+}
+
+.accordionContent{
 
 
 
+	width: 100% !important;
+float: none !important;
+padding: 0 !important;
 
 
+}
 
+#tv-header{
+width: 100% !important;
+float: none !important;
+padding: 0 !important;
+}
 
+#live_embed_player_flash{
+
+width:100% !important;
+
+}
 
 }
 

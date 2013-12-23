@@ -12,14 +12,30 @@
 @import url("/css/20131119132956/ncss.php");
 </style><style type="text/css">
 body {
-	background: #cfd5ed url('/images/dbo_bgb.jpg') no-repeat  50% 0%;
+	background: #cfd5ed url('./images/dbo_bgb.jpg') no-repeat  50% 0%;
 }
 #newsheader {
-	background: #cfd5ed url('/images/dbo_bgb.jpg') no-repeat 50% 0%;
+	background: #cfd5ed url('./images/dbo_bgb.jpg') no-repeat 50% 0%;
 }
 #header {
-	background: #cfd5ed url('/images/dbo_bgb.jpg') no-repeat  50% 0%;
+	background: #cfd5ed url('./images/dbo_bgb.jpg') no-repeat  50% 0%;
 }
+
+@media screen and (max-width: 480px) and (min-width: 200px){
+#header {
+background: rgb(207, 213, 237) url('./images/dbo-mobile2x.jpg') no-repeat 50% 0%;
+background-size: 100%;
+}
+body {
+background: rgb(207, 213, 237) url('./images/dbo-mobile2x.jpg') no-repeat 50% 0%;
+background-size: 100%;
+}
+#newsheader {
+background: rgb(207, 213, 237) url('./images/dbo-mobile2x.jpg') no-repeat 50% 0%;
+background-size: 100%;
+}
+}
+
 </style>
  
 <script type="text/javascript" async="" src="./dboTV_files/ga.js"></script><script src="./dboTV_files/jquery.min.js"></script><style type="text/css"></style>
@@ -94,7 +110,7 @@ End Function
 <div id="maincont">
     <div id="newsinner">
     	<div id="nireal">
-<div style="float:left;width:670px;margin-bottom:10px;"><img src="./dboTV_files/dbotvbanner.png" alt="dboTV">
+<div id="tv-header" style="float:left;width:670px;margin-bottom:10px;"><img src="./dboTV_files/dbotvbanner.png" alt="dboTV">
 <div id="Accwrapper">
 	<div class="accordionButton">Click here for access to live stream and chat</div>
 	<div class="accordionContent" style="display: none;">
