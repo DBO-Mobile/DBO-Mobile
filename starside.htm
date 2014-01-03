@@ -21,6 +21,19 @@ body {
 	background: #cfd5ed url('/images/dbo_bgb.jpg') no-repeat  50% 0%;
 }
 
+.ss-descrip{
+float:left;
+width:600px;
+}
+
+.ss-itunes{
+float:left;
+width:60px;
+margin-left:10px;
+text-align:center;
+
+}
+
 @media screen and (max-width: 480px) and (min-width: 200px){
 #header {
 background: rgb(207, 213, 237) url('./images/dbo-mobile2x.jpg') no-repeat 50% 0%;
@@ -34,6 +47,22 @@ background-size: 100%;
 background: rgb(207, 213, 237) url('./images/dbo-mobile2x.jpg') no-repeat 50% 0%;
 background-size: 100%;
 }
+
+.ss-descrip{
+
+	width: 100%;
+padding-bottom: 20px;
+}
+
+.ss-itunes{
+
+	float: none;
+width: 100%;
+margin-left: 0px;
+text-align: center;
+margin: 0px;
+}
+
 }
 </style>
  
@@ -107,8 +136,8 @@ End Function
     <div id="newsinner">
     	<div id="nireal">
 <img src="./starside_files/starside_lounge_banner.jpg" alt="The Starside Lounge">
-<div style="float:left;width:600px;">Welcome to the official destiny.bungie.org podcast! We'd give you a rundown of what you'll hear on each episode - but we don't know until we record 'em. Shenanigans, in any case. Go listen.</div>
-<div style="float:left;width:60px;margin-left:10px;text-align:center;"><a href="https://itunes.apple.com/us/podcast/the-starside-lounge/id665685151"><img style="border:0;" src="./starside_files/itunes.png" alt="Subscribe with iTunes"></a><br>iTunes</div>
+<div class="ss-descrip">Welcome to the official destiny.bungie.org podcast! We'd give you a rundown of what you'll hear on each episode - but we don't know until we record 'em. Shenanigans, in any case. Go listen.</div>
+<div class="ss-itunes"><a href="https://itunes.apple.com/us/podcast/the-starside-lounge/id665685151"><img style="border:0;" src="./starside_files/itunes.png" alt="Subscribe with iTunes"></a><br>iTunes</div>
 <br class="clb"><br>
 
 <div class="ss-item">
@@ -137,6 +166,8 @@ End Function
 </div>
 <br style="clear:left;">
 <div class="hr"><hr></div>
+</div>
+<div class="ss-item">
 <div style="float:left;">
 <img src="./starside_files/starside_lounge_ep_0_60.jpg" alt="" style="float:left;margin-right:5px;"><b>The Starside Lounge Episode Zero</b> (Sun, 9 Jun 2013)<br>For a little over an hour, we discuss Bungie's E3 gameplay reveal, Destiny platforms, character classes and customization, micro-transactions, The Law of the Jungle, and more. Check it out, we hope you enjoy it!<br><br>
 </div>
