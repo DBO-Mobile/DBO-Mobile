@@ -20,6 +20,12 @@ body {
 #header {
 	background: #cfd5ed url('/images/dbo-header_media.jpg') no-repeat 50% 0%;
 }
+
+@media screen and (max-width: 480px) and (min-width: 200px){
+#nireal {
+padding: 5px 15px 20px 5px;}
+}
+
 </style>
    
 <script type="text/javascript" async="" src="./ddb_files/ga.js"></script><script type="text/javascript" src="./ddb_files/jquery.min.js"></script>
@@ -28,9 +34,14 @@ body {
 	<link rel="stylesheet" href="http://destiny.bungie.org/modules/mosaic/mosaic.css">
 	<script type="text/javascript">
 		jQuery(function($){
+			if(window.innerWidth > 450){
 			$('.bar').mosaic({
 				animation: 'slide'
 			});
+		}else{
+
+			$('.bar .mosaic-overlay').addClass("mosaic-mobile").removeClass('mosaic-overlay');}
+		
 		});
 	</script>
  

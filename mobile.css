@@ -555,6 +555,41 @@ width:100% !important;
 font-size: 1.3em;
 }
 
+.mosaic-block{
+
+	overflow: visible;
+}
+.mosaic-mobile .details {
+margin: 25px 20px 0px 89px;
+font-size:1em;
+width:100%;
+
+}
+
+.bar .mosaic-mobile {
+bottom: 0;
+display: inline;
+position: absolute;
+z-index: 3;
+background: rgba(0, 0, 0, 0.5);
+}
+
+#weaponmenu {
+display:none;
+}
+
+a.mosaic-mobile {
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 1.7em;
+margin: 0;
+border: 0;
+width:100%;
+}
+.mosaic-mobile .details h4{
+font-size:1em;
+
+
 }
 
 /* Smartphones (landscape) ----------- */
